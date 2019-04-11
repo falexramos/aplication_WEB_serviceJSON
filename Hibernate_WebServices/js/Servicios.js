@@ -78,7 +78,7 @@ function serivicioLogin(user,pass) {
                           listaUsuarios = true;
                       }
                       $('.id-mostrarHome').append(userActi);
-                      alert(data.responseText),
+                      alert('Bienvenido: '+data.responseText),
                       location.href = "Home.html";
                    
                       
